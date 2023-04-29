@@ -7,17 +7,13 @@ with open(os.path.join(base_dir, "README.md")) as f:
     long_description = f.read()
 
 setup(
-  name = 'py-AutoClean',         
+  name = 'py-AutoCleanRe',         
   packages = ['AutoClean'],   
-  version =  'v1.1.3',      
+  version =  'v1.1.4',      
   license='MIT',        
   description = 'AutoClean - Python Package for Automated Preprocessing & Cleaning of Datasets', 
   long_description=long_description,
   long_description_content_type='text/markdown',
-  author = 'Elise Landman',                  
-  author_email = 'elisejlandman@hotmail.com', 
-  url = 'https://github.com/elisemercury/AutoClean', 
-  download_url = 'https://github.com/elisemercury/AutoClean/archive/refs/tags/v1.1.3.tar.gz',
   keywords = ['automated', 'cleaning', 'preprocessing', "autoclean"],  
   install_requires=[          
           'scikit-learn',
